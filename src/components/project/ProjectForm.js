@@ -28,12 +28,12 @@ function ProjectForm({ handleSubmit, btnText, projectData }){
         //handleSubmit(project)
     }
 
-    function handleChange(e){
+    function handleChange(e) {
         setProject({ ...project, [e.target.name]: e.target.value })
         console.log(project)
     }
 
-    function handleCategory(e){
+    function handleCategory(e) {
         setProject({
             ...project,
             category: {
